@@ -1,0 +1,26 @@
+# Datasets (too large / not yours to redistribute — link to Kaggle in README instead)
+arcDataset/
+data/
+data_raw/
+
+# Vector store (regeneratable — fetched live from Wikipedia on first run)
+chroma_heritage_db/
+chroma_heritage_db_v2/
+chroma_db/
+
+# Downloaded archives / temp files
+*.zip
+archive.zip
+knowledge_base.zip
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python / Streamlit cache
+__pycache__/
+*.pyc
+.streamlit/
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
